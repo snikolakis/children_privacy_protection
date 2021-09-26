@@ -15,7 +15,6 @@ By default, the extracted faces will be stored in `src/utils/faces_extracted` bu
 
 Finally, manually choose what faces belong to infants and what does not, the first ones should be added to a directory `babies` and the second ones to a directory named `not-babies`.
 
-## Train
 
 ## Perform predictions
 
@@ -24,3 +23,20 @@ In order to perform predictions with an already trained model, enter the `src/pr
 ```bash
 $ python3 perform_predictions.py
 ```
+## Directories Description
+
+### Classification
+**Contains Jupyter Notebooks for model training**
+
+train/
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ./resnet.ipynb - ResNet - 50 Fine tuning model
+ 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ./vggface_custom_model.ipynb - VGGFace - ResNet - 50 Fine tuning model
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ./vggface_feture_extraction.ipynb - VGGFace feture extraction and then classify via Feed Forward Neural Net
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ./visual_transformers.ipynb - Visual Transformers model training
+
+ 
+ Set the needed parameters inside of the Jupyter Notebooks, set your enviroment and the models will run out of the box.
