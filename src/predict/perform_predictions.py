@@ -7,7 +7,6 @@ import shutil
 import cv2
 import warnings
 import random
-import sys
 import numpy as np
 from PIL import Image
 from utils import *
@@ -20,6 +19,7 @@ PATH_TO_WEIGHTS = PATH_TO_YOLOFACE + '/model-weights/yolov3-wider_16000.weights'
 # application specific variables
 PATH_TO_DEMO_IMGS = './demo_imgs'
 PATH_TO_EMOJIS = '../dataset/emojis'
+PATH_TO_MODEL = 'model.h5'
 
 
 def create_directory(path):
@@ -97,7 +97,7 @@ def center_emoji_to_face(face_loc):
 
 if __name__ == '__main__':
     warnings.filterwarnings('ignore')
-    model = tf.keras.models.load_model('model.h5')
+    model = tf.keras.models.load_model(PATH_TO_MODEL)
     print('[DONE] Loaded the model')
     config_yoloface()
     print('[DONE] Set yoloface configuration')

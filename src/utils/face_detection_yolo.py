@@ -2,12 +2,11 @@ import cv2
 import gdown
 import shutil
 import os
-import sys
 from utils import *
 
 
-PATH_TO_DATASET = './yolo_test'
-OUTPUT_PATH = './faces_extracted_yolo_test'
+PATH_TO_DATASET = '../dataset/original'
+OUTPUT_PATH = './faces_extracted'
 PATH_TO_YOLOFACE = './yoloface'
 PATH_TO_CFG = PATH_TO_YOLOFACE + '/cfg/yolov3-face.cfg'
 PATH_TO_WEIGHTS = PATH_TO_YOLOFACE + '/model-weights/yolov3-wider_16000.weights'
