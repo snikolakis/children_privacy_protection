@@ -1,4 +1,4 @@
-# Small children privacy protection through automatic face covering by emojis in photos
+# Children safety and privacy protection through facial characteristics censorship in photos
 
 This project constitutes the final project for the course "Deep Neural Networks" (2020-2021).
 
