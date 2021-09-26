@@ -25,10 +25,10 @@ $ python3 perform_predictions.py
 ```
 ## Directories Description
 
-### Classification
+### Train
 **Contains Jupyter Notebooks for model training**
 
-train/
+src/train/
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ./resnet.ipynb - ResNet - 50 Fine tuning model
  
