@@ -1,6 +1,11 @@
 # Children safety and privacy protection through facial characteristics censorship in photos
 
-This project constitutes the final project for the course "Deep Neural Networks" (2020-2021).
+Final project in Deep Neural Networks course at [DSIT @ UoA](http://dsit.di.uoa.gr/) - Academic year 2020 - 2021
+
+Authors:
+* [Alex Zerntev](https://github.com/Alexzerntev)
+* [Spyros Nikolakis](https://github.com/snikolakis)
+* [Nikos Episkopos](https://github.com/nbishdev)
 
 ## Create the dataset
 
