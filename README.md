@@ -4,8 +4,8 @@ Final project in Deep Neural Networks course at [DSIT @ UoA](http://dsit.di.uoa.
 
 Authors:
 * [Alex Zerntev](https://github.com/Alexzerntev)
+* [Nikolaos Episkopos](https://github.com/nbishdev)
 * [Spyros Nikolakis](https://github.com/snikolakis)
-* [Nikos Episkopos](https://github.com/nbishdev)
 
 ## Create the dataset
 
